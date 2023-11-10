@@ -27,7 +27,7 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting {
+        commonMain {
             dependencies {
                 modules.forEach { module ->
                     api(project(module))

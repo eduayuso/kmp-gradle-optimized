@@ -19,7 +19,7 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting {
+        commonMain {
             dependencies {
                 implementation(project(BuildConstants.Modules.Shared.domain))
             }

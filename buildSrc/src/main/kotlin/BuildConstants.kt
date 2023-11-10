@@ -2,9 +2,10 @@ object BuildConstants {
 
     object Sdk {
 
-        const val min = 24
-        const val target = 33
-        const val compile = 33
+        const val min = 28
+        const val target = 34
+        const val compile = 34
+        const val kotlinComposeCompiler = "1.5.4"
     }
 
     object AndroidApp {

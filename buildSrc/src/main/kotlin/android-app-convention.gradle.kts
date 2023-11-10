@@ -16,7 +16,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.7"
+        kotlinCompilerExtensionVersion = BuildConstants.Sdk.kotlinComposeCompiler
     }
     buildTypes {
         getByName("release") {
